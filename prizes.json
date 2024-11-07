@@ -11,7 +11,11 @@
         "Venom fruit": 1,
         "Subs": 700
     },
-    "4": {
+    "4":{
+        "Random Fruit":1,
+        "Subs":850
+    },
+    "5": {
         "Trex fruit": 1,
         "Subs": 1000
     }
