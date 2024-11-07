@@ -149,6 +149,10 @@ main ul{
     justify-content: space-around;
     align-items: center;
 }
+
+li img{
+    border-radius: 20px;
+}
 /*Staff.html*/
 
 table {
