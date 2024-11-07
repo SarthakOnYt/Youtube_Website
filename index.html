@@ -6,13 +6,11 @@
         <title>Sarthak's Webiste</title>
         <link rel="stylesheet" href="style.css" />
         <script>
-            function checkDevice() {
+            window.addEventListener("load", function () {
                 if (window.innerWidth < 1024) {
                     document.body.innerHTML = "<h1>Access restricted to desktop devices only.</h1>";
                 }
-            }
-            window.addEventListener("load", checkDevice);
-            window.addEventListener("resize", checkDevice); // Also runs when the window is resized
+            });
         </script>
     </head>
     <body background="images/logo.PNG">
