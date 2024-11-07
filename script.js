@@ -70,3 +70,10 @@ document.addEventListener('keydown', (e) => {
         alert("Developer tools are disabled on this page.");
     }
 });
+
+
+window.addEventListener("load", function () {
+    if (window.innerWidth < 1024) {
+        document.body.innerHTML = "<h1>Access restricted to desktop devices only.</h1>";
+    }
+});
