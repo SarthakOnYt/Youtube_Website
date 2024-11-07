@@ -1,0 +1,201 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 77, 77, 0.8);
+    width: -webkit-fill-available;
+    border-radius: 50px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Updated border radius */
+    object-fit: cover;
+}
+
+
+header nav {
+    margin-left: 100px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* Adjust External_Links navigation */
+nav.External_Links {
+    margin-left: auto; /* Pushes the External_Links nav to the far right */
+    display: flex;
+    align-items: center;
+    
+}
+nav img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+}
+p{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: 30px;
+}
+div.youtube{
+    display: flex;
+}
+div.channel_trailer{
+    background-color: rgba(255, 215, 0, 0.5);
+    justify-items: center;
+    display: grid;
+}
+div.channel_trailer iframe{
+    width: 600px;
+    height: 400px;
+}
+div.channel_trailer p{
+    justify-content: left;
+}
+div.welcome_text{
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+header iframe{
+    pointer-events: none;
+    background: transparent;
+    height: 80px;
+    width: 180px;
+    border-radius: 25px;
+}
+
+.giveaway-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255,0.5);
+}
+
+div.Giveaways{
+    display: flex;
+    justify-content: space-around
+}
+
+div.instructions{
+    display: grid;
+    background-color:rgba(0, 255, 255,0.5) ;
+}
+
+ul.instructions{
+    display: grid;
+    list-style:circle;
+}
+
+ul.instructions li{
+    border-radius: 0px;
+    padding: 5px;
+    margin: 5px;
+}
+
+ul.instructions li img{
+    border-radius: 5%;
+}
+/* Donation.htmml*/
+
+main ul li a{
+    color: White;
+    font-size: 50px;
+}
+main ul li{
+    padding: 20px;
+    margin: 20px;
+    background-color:rgba(0, 255, 255,0.5) ;
+    border-radius: 25%;
+    
+}
+main ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*Staff.html*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid white;
+}
+
+th, td {
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #333; /* Optional: makes the header distinct */
+}
+
+a.staff_names{
+    color: rgb(9, 222, 165);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+div.Recruitment{
+    display: grid;
+    background-color: rgba(0, 255, 255,0.5);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+/*Footer for all pages*/
+footer{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p{
+    color: rgb(0, 0, 0);
+}
