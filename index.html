@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Sarthak's Webiste</title>
         <link rel="stylesheet" href="style.css" />
+        <?php
+            if (preg_match("/(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)/i", $_SERVER["HTTP_USER_AGENT"])) {
+            header("Location: desktop-only.html");
+            exit();
+            }
+        ?>
     </head>
     <body background="images/logo.PNG">
         <header>
