@@ -127,7 +127,7 @@ ul.instructions li{
     margin: 5px;
 }
 
-ul.instructions li img{
+ul li img{
     border-radius: 5%;
 }
 /* Donation.htmml*/
@@ -150,9 +150,7 @@ main ul{
     align-items: center;
 }
 
-li img{
-    border-radius: 20px;
-}
+
 /*Staff.html*/
 
 table {
