@@ -1,6 +1,6 @@
 const giveaways = document.getElementById("Giveaways");
 
-fetch("https://raw.githubusercontent.com/SarthakOnYt/Youtube_Website/main/prizes.json")
+fetch("https://raw.githubusercontent.com/SarthakOnYt/giveaways/main/prizes.json")
     .then(response => {
         if (!response.ok) {
             throw new Error("Network response was not ok");
