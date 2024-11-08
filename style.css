@@ -1,6 +1,7 @@
 body{
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 header {
     display: flex;
@@ -17,10 +18,9 @@ header a{
 }
 
 header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; /* Updated border radius */
-    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px; /* Updated border radius */
 }
 
 
@@ -51,12 +51,6 @@ nav.External_Links {
     display: flex;
     align-items: center;
     
-}
-nav img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-    object-fit: contain;
 }
 
 h1{
@@ -127,7 +121,6 @@ ul.instructions li{
     margin: 5px;
 }
 
-ul li img{
     border-radius: 5%;
 }
 /* Donation.htmml*/
