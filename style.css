@@ -121,6 +121,7 @@ ul.instructions li{
     margin: 5px;
 }
 
+ul.instructions li img{
     border-radius: 5%;
 }
 /* Donation.htmml*/
