@@ -1,6 +1,6 @@
 const giveaways = document.getElementById("Giveaways");
 
-fetch("https://raw.githubusercontent.com/SarthakOnYt/giveaways/main/prizes.json")
+fetch("https://raw.githubusercontent.com/SarthakOnYt/Youtube_Website/main/prizes.json")
     .then(response => {
         if (!response.ok) {
             throw new Error("Network response was not ok");
@@ -68,12 +68,5 @@ document.addEventListener('keydown', (e) => {
     if (e.key === 'F12') {
         e.preventDefault();
         alert("Developer tools are disabled on this page.");
-    }
-});
-
-
-window.addEventListener("load", function () {
-    if (window.innerWidth < 1024) {
-        document.body.innerHTML = "<h1>Access restricted to desktop devices only.</h1>";
     }
 });
