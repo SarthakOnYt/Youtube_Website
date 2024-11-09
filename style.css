@@ -20,7 +20,7 @@ header a{
 header img {
     width: 50px;
     height: 50px;
-    border-radius: 50px; /* Updated border radius */
+    border-radius: 50%; /* Updated border radius */
 }
 
 
@@ -121,9 +121,6 @@ ul.instructions li{
     margin: 5px;
 }
 
-ul li img{
-    border-radius: 5%;
-}
 /* Donation.htmml*/
 
 main ul li a{
