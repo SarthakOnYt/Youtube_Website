@@ -181,6 +181,18 @@ div.Recruitment{
     justify-content: center;
 }
 
+/*Roblox donation page*/
+div ul li a div{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+div ul li a div img{
+    width: 200px;
+    height: 200px;
+}
+
+
 
 /*Footer for all pages*/
 footer{
