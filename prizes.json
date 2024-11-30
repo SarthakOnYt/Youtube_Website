@@ -1,14 +1,10 @@
 {
     "3": {
         "Venom fruit": 1,
-        "Subs": 700
-    },
-    "4":{
-        "Control Fruit":1,
-        "Subs":1000
+        "Subs": 500
     },
     "5": {
         "Trex fruit": 1,
-        "Subs": 1200
+        "Subs": 1000
     }
 }
