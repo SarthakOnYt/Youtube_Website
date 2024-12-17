@@ -152,9 +152,16 @@ ul.instructions li {
 }
 
 /* Styling Images inside a List */
+div ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
 div ul li img {
     border-radius: 10%;
-    height: 100px;
+    height: 80%;
     width: 80%;
 }
 
