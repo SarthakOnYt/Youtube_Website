@@ -159,10 +159,11 @@ div ul li{
     justify-items: center;
 }
 
+
 div ul li img {
     border-radius: 10%;
     height: 80%;
-    width: 80%;
+    width: 90%;
 }
 
 /* Donation Page */
