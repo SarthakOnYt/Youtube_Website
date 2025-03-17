@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
 }
 
 /* Header Styling */
@@ -237,6 +238,42 @@ div ul li a div img {
 div.Gamepasses ul li a{
     font-size: 1.5rem;
 }
+
+/*Supported creator page*/
+.channels{
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.channels a div{
+    background-color: rgba(0, 255, 255, 0.2);
+    padding: 1vh;
+    border-radius: 5vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.channels a div img{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 5vh;
+}
+
+.channels a div h3{
+    color: beige;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 /* Footer Styling */
 footer {
     background-color: rgb(255, 255, 255);
